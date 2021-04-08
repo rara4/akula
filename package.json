@@ -5,7 +5,7 @@
     "publisher": "rara4",
     "icon": "src/shark.png",
     "repository": { "type": "git", "url": "https://github.com/rara4/akula.git" },
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.55.0"
 	},
