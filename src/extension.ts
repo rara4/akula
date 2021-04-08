@@ -10,7 +10,7 @@ export function activate(context: vscode.ExtensionContext) {
         rab.text = `$(sync~spin)`;
         const apr = setTimeout(() => {
             rab.text = "🦈🦈🦈🦈🦈🦈";
-            vscode.window.showInformationMessage("You are now a requin 🦈🦈");
+            vscode.window.showInformationMessage("You are now part of the requin gang 🦈🦈");
         }, 1500);
         const apv = setTimeout(() => {
             rab.text = "Le gang des requins";
