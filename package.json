@@ -16,8 +16,8 @@
 	"contributes": {
 		"commands": [
 			{
-				"command": "akula.cliquer",
-				"title": "Hello World"
+				"command": "akula.funone",
+				"title": "One"
 			}
 		]
 	},

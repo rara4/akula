@@ -2,13 +2,19 @@ import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
 
-    var barre = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, -100);
-    barre.text = "Le gang des requins";
-    barre.tooltip = "requin gang faites attention";
-    barre.command = 'akula.cliquer';
-    barre.show();
-    let dispo = vscode.commands.registerCommand('akula.cliquer', () => {
-        barre.text = "No u";
+    var rab = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, -100);
+    rab.text = "Le gang des requins";
+    rab.tooltip = "requin gang faites attention";
+    rab.command = 'akula.funone';
+    rab.show();
+    let dispo = vscode.commands.registerCommand('akula.funone', () => {
+        rab.text = `$(sync~spin)`;
+        const apr = setInterval(() => {
+            rab.text = "🦈🦈🦈🦈🦈🦈";
+        }, 3000);
+        const av = setInterval(() => {
+            rab.text = "Le gang des requins";
+        }, 5000)
     }); 
     
 	/* The command has been defined in the package.json file
