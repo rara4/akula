@@ -2,7 +2,10 @@
 	"name": "akula",
 	"displayName": "akula",
 	"description": "akula is a minimalist vscode extension that aims to enhance users' coding experience",
-	"version": "0.0.1",
+    "publisher": "rara4",
+    "icon": "src/shark.png",
+    "repository": { "type": "git", "url": "https://github.com/rara4/akula.git" },
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.55.0"
 	},
