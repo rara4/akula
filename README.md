@@ -6,6 +6,7 @@
 ![Shark](./src/shark.png)
 <br>
 
+### extension in action
 ![How it works](./src/workingshark.gif)
 
 
