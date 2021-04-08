@@ -6,7 +6,7 @@
 ![Shark](./src/shark.png)
 <br>
 
-![How it works](https://i.imgur.com/UCT7MEb.gifv)
+![How it works](./src/workingshark.gif)
 
 
 
