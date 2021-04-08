@@ -7,3 +7,5 @@ out
 # Generated files
 .psci
 output
+vsc-extension-quickstart.md
+ignored/
