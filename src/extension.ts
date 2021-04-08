@@ -3,7 +3,7 @@ import * as vscode from 'vscode';
 export function activate(context: vscode.ExtensionContext) {
 
     var rab = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, -100);
-    rab.text = "Le gang des requins"; rab.tooltip = "requin gang faites attention"; rab.command = 'akula.funone';
+    rab.text = "Le gang des requins"; rab.tooltip = "requin gang est dans la place"; rab.command = 'akula.funone';
     rab.show();
 
     let dispo = vscode.commands.registerCommand('akula.funone', () => {
