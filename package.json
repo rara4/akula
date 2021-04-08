@@ -10,13 +10,13 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:akula.helloWorld"
+		"*"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "akula.helloWorld",
+				"command": "akula.cliquer",
 				"title": "Hello World"
 			}
 		]
