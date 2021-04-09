@@ -1,8 +1,6 @@
 # Akula
-### This is a minimalist vscode extension that aims to enhance users' coding experience
-<br>
-
-### this is the mascot
+## This is a minimalist vscode extension that aims to enhance users' coding experience
+### Here is the mascot
 ![Shark](./src/shark.png)
 <br>
 
