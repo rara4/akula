@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import {} from 'cons'
+import {} from './cons'
 
 export function activate(context: vscode.ExtensionContext) {
 
