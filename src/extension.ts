@@ -15,7 +15,7 @@ export function activate(context: vscode.ExtensionContext) {
         }, 1500);
         const apv = setTimeout(() => {
             rab.text = "Le gang des requins";
-        }, 3000);
+        }, 3500);
     }); 
 
 	context.subscriptions.push(dispo);
